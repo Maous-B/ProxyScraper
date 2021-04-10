@@ -17,9 +17,9 @@ print(banner)
 
 def downloadproxies():
     collector = proxyscrape.create_collector('my-collector', ['http', 'socks4', 'socks5'])
-    proxy = collector.get_proxies()
-    file = open("proxys.txt","w")
-    file.write(str(proxy))
+    proxies = collector.get_proxies()
+    file = open("proxies.txt","w")
+    file.write(str(proxies))
     file.close()
     print("            \33[38;5;214mSuccessfully downloaded http, https, socks4 and socks5 proxys as proxys.txt!\n\033[0m")
 
