@@ -2,3 +2,5 @@
 ProxyScraper is a Python tool to test proxies (HTTP, HTTPS, SOCKS4/5) and save them in a .txt file using the ProxyScrape API.
 # Preview 
 ![](https://github.com/Maous-B/ProxyScraper/blob/main/ProxyScraper.png?raw=true)
+# How to use
+python3 ProxyScraper.py
