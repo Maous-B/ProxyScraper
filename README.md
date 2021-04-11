@@ -8,3 +8,5 @@ pip install proxyscrape
 python3 ProxyScraper.py
 # ProxyScrape API Documentation
 More informations about ProxyScrape API [here](https://pypi.org/project/proxyscrape/) !
+# Installation
+git clone https://github.com/Maous-B/ProxyScraper.git
