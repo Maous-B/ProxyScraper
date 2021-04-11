@@ -21,7 +21,7 @@ def downloadproxies():
     file = open("proxies.txt","w")
     file.write(str(proxies))
     file.close()
-    print("            \33[38;5;214mSuccessfully downloaded http, https, socks4 and socks5 proxys as proxys.txt!\n\033[0m")
+    print("                                 \33[38;5;214mSuccessfully saved proxies list!\n\033[0m")
 
 if __name__ == "__main__":
     thread = threading.Thread(target=downloadproxies)
